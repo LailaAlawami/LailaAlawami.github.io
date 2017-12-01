@@ -3,7 +3,20 @@
 }
 iframe{
     height: 400px;
+    border: none;
 }
 .item-logos{
     height: 1.5em;
+   
+
+}
+body{
+    background-image: url(https://wallpaperscraft.com/image/surface_gray_spot_light_texture_50876_1680x1050.jpg);
+    height: 100000px;
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 25px;
+    margin-top: 15px;
 }
