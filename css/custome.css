@@ -11,7 +11,7 @@ iframe{
 
 }
 body{
-    background-image: url(https://wallpaperscraft.com/image/surface_gray_spot_light_texture_50876_1680x1050.jpg);
+    background-image: url(http://www.zingerbug.com/Backgrounds/background_images/light_gray_bricks_pattern.gif);
     height: 100000px;
 }
 .container{
@@ -19,4 +19,78 @@ body{
     padding: 10px;
     border-radius: 25px;
     margin-top: 15px;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    font-size : 2em;
+}
+h4{
+    font-size : 1.5em;
+}
+
+/* Below line is write to use Google font online */
+@import "http://fonts.googleapis.com/css?family=Ubuntu";
+div#main{
+width:830px;
+height:650px;
+margin:0 auto;
+font-family:'Ubuntu',sans-serif
+}
+div#form_sample{
+    display: block;
+text-align:center;
+border:1px solid #ccc;
+width:100%;
+padding:0 50px 15px;
+margin-top:20px;
+
+border-radius:6px;
+}
+#main h1{
+margin-top:40px
+}
+hr{
+margin-top:-5px
+}
+label{
+float:left;
+font-size:16px
+}
+input[type="text"]{
+width:100%;
+margin-top:10px;
+height:35px;
+margin-bottom:25px;
+padding:10px;
+border:3px solid #ccc;
+}
+textarea{
+width:100%;
+border:3px solid #ccc;
+padding:10px;
+margin-bottom:25px;
+margin-top:10px;
+height:100px;
+resize:none
+}
+input[type="submit"]{
+width:100%;
+padding:10px 45px;
+background-color:#ccc;
+border:none;
+color:#fff;
+font-size:18px;
+font-weight:700;
+cursor:pointer;
+font-family:'Ubuntu',sans-serif
+}
+/* -------------------------------------
+CSS for Sidebar (optional)
+---------------------------------------- */
+div#fugo{
+float:right
 }
